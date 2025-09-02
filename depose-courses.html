@@ -3,39 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Que dois-je vous déposer</title>
   <style>
     body {
-  font-size: 18px;
-}
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
     h1 {
-  font-size: 2.5rem;
-}
-p {
-  font-size: 1.2rem;
-}
-</style>
-
-  <title>Dépose Courses - Konmisyon Express</title>
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Dépose tes courses</h1>
-  <nav>
-    <a href="index.html">Accueil</a> |
-    <a href="depose-courses.html">Dépose Courses</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <form>
-    <label for="nom">Votre nom :</label><br>
-    <input type="text" id="nom" name="nom" required><br><br>
-
-    <label for="adresse">Adresse de livraison :</label><br>
-    <input type="text" id="adresse" name="adresse" required><br><br>
-
-    <label for="message">Liste de courses :</label><br>
-    <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-    <button type="submit">Envoyer</button>
-  </form>
+  <div class="container">
+    <h1>Que dois-je vous déposer</h1>
+    <!-- Remplace ou ajoute ici ton contenu -->
+    <p>Ton contenu ici...</p>
+  </div>
 </body>
 </html>

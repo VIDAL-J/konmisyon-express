@@ -2,15 +2,64 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Accueil - Konmisyon Express</title>
+
+  <!-- ✅ Bolt CSS -->
+  <link rel="stylesheet" href="https://cdn.boltcss.com/bolt.min.css" />
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+    }
+
+    .nav-links a {
+      margin-right: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 100%;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Bienvenue sur Konmisyon Express</h1>
-  <nav>
-    <a href="index.html">Accueil</a> |
-    <a href="depose-courses.html">Dépose Courses</a> |
-    <a href="contact.html">Contact</a>
+
+  <!-- ✅ En-tête -->
+  <header class="center-text">
+    <h1>Bienvenue sur <strong>Konmisyon Express</strong></h1>
+    <p class="text-muted">Service de dépôt de courses à domicile</p>
+  </header>
+
+  <!-- ✅ Navigation -->
+  <nav class="nav-links center-text">
+    <a href="index.html">🏠 Accueil</a>
+    <a href="depose-courses.html">📦 Dépose Courses</a>
+    <a href="contact.html">📞 Contact</a>
   </nav>
-  <p>Service de dépôt de courses à domicile.</p>
+
+  <!-- ✅ Contenu principal -->
+  <main class="card">
+    <p>
+      Konmisyon Express est un service de dépôt rapide et efficace pour vos courses du quotidien.  
+      Vous pouvez demander une livraison, déposer un colis, ou nous contacter pour plus d'informations.
+    </p>
+    <p>
+      Naviguez avec les liens ci-dessus pour commencer !
+    </p>
+  </main>
+
 </body>
 </html>

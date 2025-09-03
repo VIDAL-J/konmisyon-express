@@ -12,6 +12,7 @@
     body {
       background-color: #f9f9f9;
       padding: 2rem;
+      margin: 0;
     }
 
     .card {
@@ -19,6 +20,8 @@
       padding: 2rem;
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 100%;
     }
 
     header {
@@ -30,19 +33,19 @@
 <body>
 
   <!-- ✅ En-tête -->
-  <header class="container center-text">
+  <header class="section center-text">
     <h1>Que dois-je vous déposer ?</h1>
     <p class="text-muted">Remplissez les détails de votre course à livrer.</p>
   </header>
 
-  <!-- ✅ Contenu principal -->
-  <main class="container">
+  <!-- ✅ Contenu principal sans .container -->
+  <main>
     <div class="card">
       <p>
         Merci de nous indiquer ce que vous souhaitez que nous déposions pour vous.
       </p>
 
-      <!-- Exemple : Formulaire de dépôt -->
+      <!-- Formulaire -->
       <form>
         <label for="item">Objet à déposer :</label><br>
         <input type="text" id="item" name="item" class="input" placeholder="Ex : colis, sac de courses" required><br><br>

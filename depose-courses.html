@@ -3,116 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Que dois-je vous déposer</title>
+  <title>Dépose Courses - Konmisyon Express</title>
+
+  <!-- ✅ BOLT CSS -->
+  <link rel="stylesheet" href="https://cdn.boltcss.com/bolt.min.css" />
+
   <style>
-    /* RESET & BASE */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      font-family: Arial, sans-serif;
       background-color: #f9f9f9;
-      font-size: 16px;
-      line-height: 1.6;
-      padding-top: 60px; /* pour ne pas que le menu cache le contenu */
+      padding: 2rem;
     }
 
-    /* NAVBAR */
-    nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-      color: #fff;
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-    }
-
-    nav .logo {
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 15px;
-    }
-
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-
-    /* CONTENU PRINCIPAL */
-    .container {
-      max-width: 600px;
-      margin: auto;
-      padding: 20px;
+    .card {
       background-color: white;
+      padding: 2rem;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 1.125rem;
-    }
-
-    /* RESPONSIVE TYPOGRAPHY */
-    @media (min-width: 768px) {
-      h1 {
-        font-size: 2.5rem;
-      }
-      p {
-        font-size: 1.25rem;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      h1 {
-        font-size: 3rem;
-      }
-      p {
-        font-size: 1.375rem;
-      }
+    header {
+      margin-bottom: 2rem;
     }
   </style>
 </head>
+
 <body>
 
-  <!-- BARRE DE NAVIGATION -->
-  <nav>
-    <div class="logo">Konmisyon Express</div>
-    <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="depose-courses.html">Dépose</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- ✅ En-tête -->
+  <header class="container center-text">
+    <h1>Que dois-je vous déposer ?</h1>
+    <p class="text-muted">Remplissez les détails de votre course à livrer.</p>
+  </header>
 
-  <!-- CONTENU PRINCIPAL -->
-  <div class="container">
-    <h1>Que dois-je vous déposer</h1>
-    <p>Ton contenu ici...</p>
-  </div>
+  <!-- ✅ Contenu principal -->
+  <main class="container">
+    <div class="card">
+      <p>
+        Merci de nous indiquer ce que vous souhaitez que nous déposions pour vous.
+      </p>
+
+      <!-- Exemple : Formulaire de dépôt -->
+      <form>
+        <label for="item">Objet à déposer :</label><br>
+        <input type="text" id="item" name="item" class="input" placeholder="Ex : colis, sac de courses" required><br><br>
+
+        <label for="details">Détails supplémentaires :</label><br>
+        <textarea id="details" name="details" class="input" placeholder="Adresse, code porte, etc."></textarea><br><br>
+
+        <button type="submit" class="button primary">Envoyer</button>
+      </form>
+
+      <hr>
+
+      <a href="index.html" class="button">⬅ Retour à l'accueil</a>
+    </div>
+  </main>
 
 </body>
 </html>

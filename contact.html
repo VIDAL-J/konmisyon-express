@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact - Konmisyon Express</title>
+  <title>Dépose Courses - Konmisyon Express</title>
 
   <!-- ✅ Bolt CSS -->
   <link rel="stylesheet" href="https://cdn.boltcss.com/bolt.min.css" />
@@ -47,8 +47,8 @@
 
   <!-- ✅ En-tête -->
   <header class="center-text">
-    <h1>📞 Contactez-nous</h1>
-    <p class="text-muted">Une question ? Une demande ? Écrivez-nous.</p>
+    <h1>📦 Que dois-je vous déposer ?</h1>
+    <p class="text-muted">Décrivez l’objet ou les courses à déposer.</p>
   </header>
 
   <!-- ✅ Navigation -->
@@ -62,14 +62,11 @@
   <main>
     <div class="card">
       <form>
-        <label for="nom">Votre nom :</label><br>
-        <input type="text" id="nom" name="nom" class="input" required><br><br>
+        <label for="item">Objet à déposer :</label><br>
+        <input type="text" id="item" name="item" class="input" placeholder="Ex : colis, sac de courses" required><br><br>
 
-        <label for="email">Votre email :</label><br>
-        <input type="email" id="email" name="email" class="input" required><br><br>
-
-        <label for="message">Votre message :</label><br>
-        <textarea id="message" name="message" class="input" rows="5" required></textarea><br><br>
+        <label for="details">Détails supplémentaires :</label><br>
+        <textarea id="details" name="details" class="input" placeholder="Adresse, code porte, instructions..." required></textarea><br><br>
 
         <button type="submit" class="button primary">Envoyer</button>
       </form>

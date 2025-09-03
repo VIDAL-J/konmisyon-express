@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Témoignages - Konmisyon Express</title>
+  <link rel="stylesheet" href="https://cdn.boltcss.com/bolt.min.css" />
+  <style>
+    body { background-color: #f9f9f9; padding: 2rem; }
+    .testimonial { background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  </style>
+</head>
+
+<body>
+
+  <header class="center-text">
+    <h1>💬 Témoignages</h1>
+    <p class="text-muted">Ils ont utilisé Konmisyon Express…</p>
+  </header>
+
+  <main>
+
+    <div class="testimonial">
+      <p><strong>Marie, Paris 18e</strong></p>
+      <p>"Très pratique ! J’ai reçu mes courses à temps, service rapide et humain."</p>
+    </div>
+
+    <div class="testimonial">
+      <p><strong>Jean-Marc, Aubervilliers</strong></p>
+      <p>"Une vraie aide pour les personnes âgées, merci pour ce service solidaire."</p>
+    </div>
+
+    <div class="testimonial">
+      <p><strong>Fatou, Saint-Denis</strong></p>
+      <p>"Simple, efficace, et avec le sourire en plus !"</p>
+    </div>
+
+    <hr />
+
+    <div class="center-text">
+      <h2>🙏 Soutenez le service avec un petit pourboire</h2>
+      <p>Ce service est offert. Vous pouvez soutenir avec un pourboire de 5 € si vous le souhaitez 💛</p>
+
+      <!-- Remplace le lien par ton propre lien Lydia, PayPal ou autre -->
+      <a href="https://www.paypal.me/tonpseudo/5" class="button primary">Faire un don de 5 €</a>
+    </div>
+
+  </main>
+
+  <footer class="center-text text-muted" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd;">
+    <p>&copy; 2025 Konmisyon Express</p>
+    <p><a href="index.html">🏠 Accueil</a> | <a href="contact.html">📞 Contact</a></p>
+  </footer>
+
+</body>
+</html>

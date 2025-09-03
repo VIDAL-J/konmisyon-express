@@ -2,27 +2,79 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact - Konmisyon Express</title>
+
+  <!-- ✅ Bolt CSS -->
+  <link rel="stylesheet" href="https://cdn.boltcss.com/bolt.min.css" />
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 100%;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+    }
+
+    .nav-links a {
+      margin-right: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .input, textarea {
+      width: 100%;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Contactez-nous</h1>
-  <nav>
-    <a href="index.html">Accueil</a> |
-    <a href="depose-courses.html">Dépose Courses</a> |
-    <a href="contact.html">Contact</a>
+
+  <!-- ✅ En-tête -->
+  <header class="center-text">
+    <h1>📞 Contactez-nous</h1>
+    <p class="text-muted">Une question ? Une demande ? Écrivez-nous.</p>
+  </header>
+
+  <!-- ✅ Navigation -->
+  <nav class="nav-links center-text">
+    <a href="index.html">🏠 Accueil</a>
+    <a href="depose-courses.html">📦 Dépose Courses</a>
+    <a href="contact.html">📞 Contact</a>
   </nav>
 
-  <form>
-    <label for="nom">Votre nom :</label><br>
-    <input type="text" id="nom" name="nom" required><br><br>
+  <!-- ✅ Formulaire -->
+  <main>
+    <div class="card">
+      <form>
+        <label for="nom">Votre nom :</label><br>
+        <input type="text" id="nom" name="nom" class="input" required><br><br>
 
-    <label for="email">Votre email :</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+        <label for="email">Votre email :</label><br>
+        <input type="email" id="email" name="email" class="input" required><br><br>
 
-    <label for="message">Votre message :</label><br>
-    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <label for="message">Votre message :</label><br>
+        <textarea id="message" name="message" class="input" rows="5" required></textarea><br><br>
 
-    <button type="submit">Envoyer</button>
-  </form>
+        <button type="submit" class="button primary">Envoyer</button>
+      </form>
+    </div>
+  </main>
+
 </body>
 </html>

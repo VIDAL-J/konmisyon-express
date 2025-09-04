@@ -1,1 +1,28 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Témoignages – Konmisyon Express</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Tu pourras y ajouter ton CSS existant ou futur ici -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <!-- Copie la barre de navigation depuis index.html pour garder la cohérence -->
+    <a href="index.html">Accueil</a>
+    <a href="depose-courses.html">Dépose Courses</a>
+    <a href="contact.html">Contact</a>
+    <a href="temoignages.html">Témoignages</a> <!-- lien en surbrillance si possible -->
+  </nav>
+  <main>
+    <h1>Témoignages</h1>
+    <p>Section réservée pour les avis clients, à venir...</p>
+  </main>
+  <footer>
+    <!-- Pied de page identique à index.html -->
+    © 2025 Konmisyon Express
+  </footer>
+</body>
+</html>

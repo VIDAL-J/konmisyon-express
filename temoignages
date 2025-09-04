@@ -14,10 +14,10 @@
     <a href="index.html">Accueil</a>
     <a href="depose-courses.html">Dépose Courses</a>
     <a href="contact.html">Contact</a>
-    <a href="témoignages.html">Témoignages</a> <!-- lien en surbrillance si possible -->
+    <a href="temoignages.html">Temoignages</a> <!-- lien en surbrillance si possible -->
   </nav>
   <main>
-    <h1>Témoignages</h1>
+    <h1>Temoignages</h1>
     <p>Section réservée pour les avis clients, à venir...</p>
   </main>
   <footer>
